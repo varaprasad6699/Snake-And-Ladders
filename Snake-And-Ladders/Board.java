@@ -37,7 +37,7 @@ class Board{
                 int roll=dice.getRoleDice();
                 System.out.println(roll+"dice roll value");
                 int next_position=current_position+roll;
-                System.out.println(player.getPlayerName()+"moved from"+current_position+"to"+next_position+"  ");
+                System.out.println(player.getPlayerName()+"and dice rolled"+roll+"moved from"+current_position+"to"+next_position+"  ");
                 if(next_position<=getBoardSize()){
                         if(snakes.containsKey(next_position)){
                           System.out.println(player.getPlayerName()+"snake head move to tail");
