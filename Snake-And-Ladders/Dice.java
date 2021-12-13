@@ -10,6 +10,6 @@ class Dice{
         return size;
   }
   public int getRoleDice(){
-    return (int) ((Math.random() * (6*size - 1)) + 1);
+    return (int) ((Math.random() * (6*size - 1*(size-1)) + 1);
   }
 }
